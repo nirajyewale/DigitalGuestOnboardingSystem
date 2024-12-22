@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Guest Onboarding System</title>
+</head>
+<link rel="stylesheet" href="css/Info.css">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    
+<body>
+
+    <nav>
+        <ul>
+            <a href="#" class="brands" id="menus" onclick="openNav()"><span
+                    class="material-symbols-outlined">menu</span></a>
+                    <a href="#" id="hola" onclick="goToHomepage()"><li class="brand"><img
+                    src="https://t4.ftcdn.net/jpg/03/34/40/37/360_F_334403790_2bxunpFUCfMNzqfFWxmS36XXMnY9SgrK.jpg"
+                    alt="HotelEase" width=10>HotelEase</li></a>
+            <li class="brand1"><a href="#" onclick="goToHomepage()">Home</a></li>
+            <li class="brand1"><a href="#" onclick="goToAboutpage()">About</a></li>
+            
+            <li class="brand1">
+                <div class="dropdown">
+                <a href="#" class="services">Services</a>
+                <a href="#" class="drop">
+                    <span class="material-symbols-outlined answers">arrow_drop_down</span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown-content1" onclick="goToLoginpage()"><p>Book Hotel</p></a>
+                </div>
+            </div>
+            </li>
+                     
+            <li class="brand1"><a href="#" id="spaces" onclick="goToContactpage()">Contact Us</a></li>
+            <div class="book"><a href="#" class="Booked" onclick="goToLoginpage()">Guest Login</a></div>
+        </ul>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+        <ul>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><li><a href="#" onclick="goToHomepage()"><span class="material-symbols-outlined">home</span>Home</a></li>
+            <li><a href="#" onclick="goToLoginpage()"><span class="material-symbols-outlined">login</span>Guest Login</a></li>
+            <li><a href="#" onclick="goToBookingpage()"><span class="material-symbols-outlined">hotel</span>Book Room</a></li>
+            <li><a href="#" onclick="goToAdminLoginpage()"><span class="material-symbols-outlined">manage_accounts</span>Admin Login</a></li>
+            <li><a href="#" onclick="goToAboutpage()"><span class="material-symbols-outlined">info</span>About Us</a></li>
+            <li><a href="#" onclick="goToContactpage()"><span class="material-symbols-outlined">contact_support</span>Contact Us</a></li>            
+        </ul>
+    </div>
+    <div class="contents">
+        <div class="importance">
+            <h1>HotelEase Overview</h1>
+        </div>
+        <div class="content c1">
+            <p><b>HotelEase</b> was founded in 2020 with a clear mission: to revolutionize the hospitality industry by providing reliable, efficient, and user-friendly solutions tailored to the needs of hoteliers. From boutique establishments to large-scale hotel chains, HotelEase empowers businesses to deliver unmatched guest experiences while optimizing their operations.Our vision is to become the top choice for hotels worldwide by offering innovative technology, exceptional convenience, and a relentless focus on guest satisfaction. We aim to streamline hotel management processes, enabling hoteliers to focus on what truly matters—providing memorable stays for their guests.</p>
+        </div>
+        <div class="content c2">
+            <h1>History</h1>
+            <p><b>HotelEase's</b> history began with a desire to address the challenges faced by hotels in managing bookings and enhancing guest experiences. Our founders envisioned a platform that would bridge the gap between hoteliers and guests, ensuring seamless and efficient operations. Despite initial hurdles, HotelEase moved forward with a strong vision. Since its inception, HotelEase has achieved significant milestones, transforming into a leading provider of hotel management solutions. We consistently showcase how technology can optimize hospitality operations, benefiting thousands of hotels globally.</p>
+        </div>
+        <div class="content c3"><div id="servicess1">
+            <h1>Services Offered</h1>
+            <h2>Services</h2>
+            <ul>
+                <li><h2>Hotel Registration:</h2><p>Easily add new hotels with details like name, logo, and address through an intuitive interface.</p></li>
+                <li><h2>Guest Management:</h2><p>Effortlessly track and manage guest details, bookings, and preferences in one place.</p></li>
+                <li><h2>QR Code Integration:</h2><p>Generate unique QR codes for each hotel, directing guests to hotel-specific landing pages.</p></li>
+                <li><h2>Advanced Reporting:</h2><p>Access detailed reports on guest stays, bookings, and operational efficiency.</p></li>
+            </ul>
+            <p>At HotelEase, we go beyond basic hotel management to provide tools that streamline daily operations.</p>
+        </div></div>
+        <div class="content c4">
+            <h1>Technology</h1>
+            <p>HotelEase leverages cutting-edge technology to simplify hotel operations. Our platform, available on both mobile and web, offers real-time booking management, guest data handling, and secure payment options. We continuously invest in advanced features to enhance operational efficiency and guest satisfaction.</p>
+        </div>
+        <div class="content c5">
+            <h1>Safety Measures</h1>
+            <p>Guest safety is a cornerstone of HotelEase. We implement stringent data privacy protocols, secure payment systems, and guest verification processes to ensure a safe and seamless experience for both hoteliers and guests.</p>
+        </div>
+        <div class="content c6">
+            <h1>Community Impact</h1>
+            <p>At HotelEase, we believe in making a positive impact. We focus on sustainable hospitality practices, such as energy-efficient solutions and waste reduction initiatives. Additionally, we support community welfare projects, contributing to the areas where our partner hotels operate.</p>
+        </div>
+        <div class="content c7">
+            <h1>Team</h1>
+            <p>Our success is powered by a dedicated team of professionals in hospitality, technology, and Guest service. Their expertise ensures that every hotel benefits from reliable and efficient management solutions.</p>
+        </div>
+        <div class="content c8">
+            <h1>Future Plans</h1>
+            <p>Looking ahead, HotelEase is focused on expanding its service offerings and continually improving the Guest experience. Stay tuned for exciting developments as we work to further enhance hospitality through innovative technology.</p>
+        </div>
+        <div class="content admin-panel"><div>
+            <h1>Main Admin Panel</h1>
+            <h2>Features:</h2>
+            <ul>
+                <li><b>Add a new hotel:</b>
+                    <ul>
+                        <li>Input fields: Hotel name, logo (file upload), and address.</li>
+                    </ul>
+                </li>
+                <li><b>Display all registered hotels in a table:</b>
+                    <ul>
+                        <li>Columns: Hotel Name, Address, Logo, and Actions.</li>
+                    </ul>
+                </li>
+                <li><b>Generate a unique QR code for each hotel:</b>
+                    <ul>
+                        <li>QR codes open hotel-specific landing pages when scanned.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div></div>
+        <div class="content guest-page"><div>
+            <h1>Guest Landing Page</h1>
+            <h2>Features:</h2>
+            <ul>
+                <li>Displays hotel details (name, logo, address).</li>
+                <li>Guest form includes:
+                    <ul>
+                        <li>Full Name</li>
+                        <li>Mobile Number</li>
+                        <li>Address</li>
+                        <li>Purpose of Visit (Dropdown: Business, Personal, Tourist)</li>
+                        <li>Stay Dates (From and To)</li>
+                        <li>Email ID</li>
+                        <li>ID Proof Number</li>
+                    </ul>
+                </li>
+                <li>After submission, show a "Thank You" page and save guest details in the database.</li>
+            </ul>
+        </div></div>
+        <div class="content guest-admin-panel"><div>
+            <h1>Guest Admin Panel</h1>
+            <h2>Features:</h2>
+            <ul>
+                <li>Displays all guest details for respective hotels in a table.</li>
+                <li>Actions:
+                    <ul>
+                        <li>Edit: Update guest information.</li>
+                        <li>View: Display guest details with a print option.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div></div>
+    <script src="/js/script.js"></script>
+    <script src="/js/main.js"></script>
+    <footer id="foot">
+        <p>&copy; 2024 HotelEase. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
